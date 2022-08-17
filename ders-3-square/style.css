@@ -1,0 +1,39 @@
+div {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  margin: 2em;
+}
+
+span {
+  background-color: red;
+  color: #fff;
+  padding: 1px;
+  margin: 2em;
+}
+
+p {
+  background-color: yellow;
+  margin: 2em;
+}
+
+.square {
+  width: 400px;
+  height: 400px;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  background-color: orange;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: all 0.2s;
+}
+
+.circle:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}

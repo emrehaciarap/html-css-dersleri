@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.square {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  place-content: center;
+}
+
+.circle {
+  background-color: lime;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  place-content: center;
+}
+
+p {
+  background-color: skyblue;
+  padding: 1em;
+}

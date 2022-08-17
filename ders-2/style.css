@@ -1,0 +1,21 @@
+/* Bir elementin id bilgisi seçilirken # işareti kullanılır */
+
+#buyuk {
+  font-size: x-large;
+}
+
+/* Bir elementin class bilgisi seçilirken . işareti kullanılır */
+
+.kalin {
+  font-weight: bold;
+}
+
+/* Bir elementin attribute bilgisi seçilirken kutu parantez içerisinde attr. yazılır */
+
+[herhangibirsey] {
+  background-color: red;
+}
+
+body h1 {
+  font-size: 100px;
+}
